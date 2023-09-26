@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import LoginImage from '../images/login.jpg'
+import Link from 'next/link'
 
 function Signup() {
   return (
@@ -36,7 +37,9 @@ function Signup() {
                 <div>
                   <button type="button" className='bg-blue-400 py-1 w-300 mt-3 text-slate-100 font-bold outline-none'>Sign up</button>
                 </div>
-                
+                <div className='text-blue-500 mt-2'>
+                  <Link href={"/login"}>Do yo have account ? Connect you !</Link>
+                </div>
               </div>
             </form>
         </div>
