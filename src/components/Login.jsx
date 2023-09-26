@@ -4,18 +4,18 @@ import LoginImage from '../images/login.jpg'
 
 function Login() {
   return (
-    <div className='flex flex-col justify-center items-center h-screen md:bg-red-200 '>
-      <div className='sm:flex sm:flex-row sm:w-screen sm:px-5'>
-        <div className='flex justify-center flex-col items-center sm:w-2/5'>
-          <h2 className='text-26 font-extra-bold opacity-67 sm:text-center'>Login</h2>
+    <div className='flex flex-col justify-center items-center h-screen '>
+      <div className='md:flex md:flex-row md:px-5 md:w-4/5'>
+        <div className='flex justify-center flex-col items-center md:w-1/2 md:flex'>
+          <h2 className='text-26 font-extra-bold opacity-67 md:text-left'>Login</h2>
           <div className='my-5'>
-            <Image className='h-150 w-150 sm:h-150 sm:w-150'
+            <Image className='h-150 w-150 md:h-350 md:w-350  md:text-left'
               src={LoginImage} 
               alt='Login image'
             />
           </div>
         </div>
-        <div  className='w-screen justify-center flex items-center sm:w-3/5 sm:mt-10'>
+        <div  className='w-screen justify-center flex items-center md:w-1/2 md:mt-10'>
             <form className=''>
               <div>
                 <div>
