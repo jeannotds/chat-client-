@@ -32,9 +32,6 @@ function Signup() {
                   <input type="password" placeholder="Confirm password" className='px-3 py-1 w-300 border-2 border-slate-100 mt-2 outline-none'/>
                 </div>
                 <div>
-                  <input type="email" placeholder="Email" className='px-3 py-1 w-300 border-2 border-slate-100 mt-2 outline-none'/>
-                </div>
-                <div>
                   <button type="button" className='bg-blue-400 py-1 w-300 mt-3 text-slate-100 font-bold outline-none'>Sign up</button>
                 </div>
                 <div className='text-blue-500 mt-2'>
