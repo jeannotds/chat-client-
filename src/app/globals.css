@@ -16,6 +16,12 @@
   }
 }
 
-/* @layer base {
-  @apply
-} */
+html{
+  padding: 15px 30px;
+}
+
+.active {
+  color: rgba(0, 0, 255, 0.6);
+  font-weight: bold;
+  font-size: 28px;
+}
