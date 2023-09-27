@@ -46,7 +46,7 @@ function Signup() {
         const axiosError = err;
         const response = axiosError.response;
         const responseData = response.data;
-        setExistDate(responseData.message)
+        setExistDate(responseData.message);
       })
 
     }
