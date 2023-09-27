@@ -38,6 +38,8 @@ module.exports = {
         sm: '0.8rem',
         base: '1rem',
         xl: '1.25rem',
+        '10': '10px',
+        '12': '12px',
         '15': '15px',
         '16': '16px',
         '20': '20px',
