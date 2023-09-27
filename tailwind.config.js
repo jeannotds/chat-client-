@@ -48,6 +48,8 @@ module.exports = {
         '26': '26px',
         '28': '28px',
         '30': '30px',
+        '32': '32px',
+        '34': '34px',
       },
       fontWeight: {
         thin: '100',
