@@ -8,7 +8,7 @@ import Profil from '../images/img1.jpeg'
 
 export default function Posts() {
   return (
-    <div className='flex flex-col pt-20'>
+    <div className='flex flex-col pt-20 pb-14'>
         <div>
           <h5 className='pt-5 pb-3 font-semibold text-[#564453]'>Recent</h5>
           {/* bg-[#e6ebf5] */}
