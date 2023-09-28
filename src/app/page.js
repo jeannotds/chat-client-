@@ -1,12 +1,11 @@
-import Navbar from '@/components/Navbar'
-// import 'tailwindcss/tailwind.css';
+import Posts from '@/components/Posts'
+import React from 'react'
 
 
 export default function Home() {
   return (
     <div>
-      Home page
-      <Navbar />
+        <Posts />
     </div>
   )
 }

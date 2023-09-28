@@ -6,7 +6,6 @@ export default function index() {
   return (
     <div>
       Profil
-      <Navbar />
     </div>
   );
 }

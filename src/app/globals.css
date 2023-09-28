@@ -16,8 +16,10 @@
   }
 }
 
-html{
-  padding: 15px 30px;
+html, body{
+  width: 93%;
+  background-color: #fafbfc;
+  margin: 0 auto 0;
 }
 
 .active {

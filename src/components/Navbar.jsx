@@ -18,7 +18,7 @@ export default function Navbar() {
 
 
   return (
-    <div className='bg-white absolute bottom-0 left-0 right-0 py-4 px-8 shadow shodow-box'>
+    <div className='bg-white fixed bottom-0 left-0 right-0 py-4 px-8 shadow shodow-box'>
         <ul className='flex justify-between text-26 text-[#99a1b1] '>
             <li className={pathname === "/" ? "active" : "" } >
                 <Link href={"/"}>
