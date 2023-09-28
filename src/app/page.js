@@ -1,3 +1,5 @@
+import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 import Posts from '@/components/Posts'
 import React from 'react'
 
@@ -5,7 +7,9 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      Home
+      <Header />
+        Home
+      <Navbar />
     </div>
   )
 }
