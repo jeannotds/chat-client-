@@ -1,9 +1,6 @@
 import React from 'react'
-import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import 'tailwindcss/tailwind.css';
-import Login from '../images/login.jpg'
-// import Profil from '../images/profil.jpg'
 import Profil from '../images/img1.jpeg'
 
 export default function Posts() {

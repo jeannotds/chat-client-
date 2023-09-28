@@ -6,8 +6,7 @@ import 'tailwindcss/tailwind.css';
 export default function index() {
   return (
     <div>
-        Conversation
-        <Navbar />
+        <Conversation />
     </div>
   )
 }
